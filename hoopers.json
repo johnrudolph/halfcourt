@@ -1,0 +1,24 @@
+{
+    "hoopers": [
+      {
+        "name": "Wilt",
+        "position": "Center",
+        "perk_name": "Vacuum",
+        "perk_description": "After your team collects 5 rebounds, ACTIVATE: you will win all rebounds.",
+        "perk_description_activated": "While you are under the basket, you automatically win every rebound.",
+        "defense": 6,
+        "defense_activated": 6,
+        "speed": 3,
+        "speed_activated": 3,
+        "shooting_close": 1,
+        "shooting_close_activated": 1,
+        "shooting_mid": 8,
+        "shooting_mid_activated": 8,
+        "shooting_three": 19,
+        "shooting_three_activated": 19,
+      }
+    ]
+  }
+
+
+  
