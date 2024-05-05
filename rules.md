@@ -42,7 +42,9 @@ At the start of each possession, the offense chooses a player and moves them to 
 A possession ends after the ball is stolen, the defense rebounds the ball, the Shot Clock expires, or the offense scores. 
 
 ## Turn
-On your turn, each of your players may take 1 action. Here are the actions available:
+On your turn, you make take actions. If you are on offense, you may take up to 4 actions. If you are on defense, you can take up to 3 actions. Each Hooper on your team can only take 1 Action per turn.
+
+Here are the actions available:
 
 ### Actions
 
@@ -53,7 +55,7 @@ The number of spaces a Hooper with this action is determined by their Speed.
 - 3 in the Key: If you start your turn with a player in the key, and you do not move them out before your turn ends, the other team gets a Free Throw. 
 
 #### Pass
-If your Hooper has the ball, they may pass it to any teammate. However, you must roll the Ball to determine if it was successful. Determine which spaces the ball *could* pass through to reach your recipient. In other words, if you *can* draw a line from your space (A) to the recipient's space (B) through another space (C), then (C) is included in the Defense. Tally up the total Defense stats of the opponents in all Defensive spaces. That is your difficulty score. Roll to Ball. If your roll is higher than that number, the pass is complete. If not, the defending team takes the ball, and begins their possession. 
+If your Hooper has the ball, they may pass it to any teammate. However, you must roll the Ball to determine if it was successful. Find all opponent Hoopers who are on or adjacent to the passer's space, or the receiver's space. Tally up the total Defense stats of the opponents in all Defensive spaces. That is your difficulty score. Roll to Ball. If your roll is higher than that number, the pass is complete. If not, the defending team takes the ball, and begins their possession. 
 
 #### Shoot
 If your Hooper has the ball, they may shoot. However, you must roll the Ball to know if the shot went in. Start with your Hooper's shooting stat. Use the lowest number if they are shooting from the key, the middle number if they are in the midrange, or the highest number if they are beyond the 3-point line. Then, find every opponent on or adjacent to your space(including diagonally). Add the defensive stats of each of these opponents to your shooting stat. This total is your Shot Difficulty. Roll the Ball. If your roll is higher than your Shot Difficulty, the shot is good. If not, the shot is a miss.
