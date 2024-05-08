@@ -51,7 +51,8 @@ Here are the actions available:
 #### Move
 The number of spaces a Hooper with this action is determined by their Speed. 
 
-- Screens: You may move into a space occupied by an opponent, but it costs 2 moves to do that. If you only have 1 move left, you cannot do this. It also costs 2 moves to move out of the space occupied by an opponent.
+- You may move through another Hooper's space, but only if you have enough movements to get past them. In other words, if you only have one move left, you cannot move into the Hooper's space. But if you have 2 moves left, you may move to the space on the other side of them.
+- Screens: With your final move, you may move halfway into another space. This indicates that you are setting a screen between the two spaces. While your Hooper is there, no other Hooper can move between these spaces along the border where you are setting your screen. Other Hoopers may still occupy each of the spaces your Hooper is screening between.
 - 3 in the Key: If you start your turn with a player in the key, and you do not move them out before your turn ends, the other team gets a Free Throw. 
 
 #### Pass
@@ -63,7 +64,15 @@ If your Hooper has the ball, they may shoot. However, you must roll the Ball to 
 - Rebounding: If you miss the shot, the rebound goes to the team who has more hoppers 1 space away from the rim. Tally up the defensive stats of the Hoopers 1 space from  the rim. Whichever team has more total defense under the rim gets the ball. If the defending team got the rebound, they immediately begin a possession. If the offense got the rebound, the Shot Clock is reset, and the defense takes their next turn as usual.
 
 ### Hustle Plays
-Each Hooper has 2 Hustle Tokens at the beginning of the game. You can spend these on any turn. On your turn, you may do 2 actions. After doing so, permanently remove the Hustle Token from that Hooper's Card. 
+Each Hooper can be in one of 3 Energy states: 
+
+1. Energized: this Hooper can make a Hustle Play on your turn.
+2. Normal
+3. Exhausted: this Hooper cannot do anything during your turn.
+
+During your turn, you can take two actions with a single Hooper if they are Energized. This is called a Hustle Play. After doing this, move the Hooper to the Exhausted state. This means that on their next turn, they cannot take any actions. 
+
+On your turn, if you do not take an Action with a Hooper, move them up the Energy Status if you can.
 
 ### Activating
 Each Hooper also has a special perk for being Activated. Each Hooper gets Activated differently. Some need to do specific things multiple times (for example: hit two 3-pointers), while others just need specific circumstances to happen (for example: when your opponent has 10 or more points).
