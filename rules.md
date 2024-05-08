@@ -11,7 +11,7 @@ The first player to score 15 points wins the game.
 - **10 Hooper Cards**: Each of these cards has a unique Hooper with different skills and abilities. In each game, you will play with just 5 of them. Each Hooper has a back side with an ability that is only available when they are Activated.
 - **10 Hooper Chits**: Each of these corrosponds with the Hooper Cards. These are the pieces you will actually move around on the board.
 - **1 Ball Die**: A 20-sided die which you will roll when you shoot or pass. The Ball tells you whether or not your shot or pass was successful.
-- **Hustle Tokens**: Each player starts with 2 of these. You may spend them on any turn, and they allow you to push above and beyond to make huge plays. 
+- **Hustle Mat**: Each Hooper starts in the Normal Zone. 
 - **Activation Markers**: Each Hoooper has a unique skill which is only used when they are Activated. These Markers show how close each Hooper is to being Activated.
 
 ## Setup
