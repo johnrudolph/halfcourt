@@ -51,16 +51,19 @@ Here are the actions available:
 #### Move
 The number of spaces a Hooper with this action is determined by their Speed. 
 
-- You may move through another Hooper's space, but only if you have enough movements to get past them. In other words, if you only have one move left, you cannot move into the Hooper's space. But if you have 2 moves left, you may move to the space on the other side of them.
+- Your Hooper may move into the space of an opposing Hooper. But you cannot have 2 of our own Hoopers on a space.
 - Screens: With your final move, you may move halfway into another space. This indicates that you are setting a screen between the two spaces. While your Hooper is there, no other Hooper can move between these spaces along the border where you are setting your screen. Other Hoopers may still occupy each of the spaces your Hooper is screening between.
 - 3 in the Key: If you start your turn with a player in the key, and you do not move them out before your turn ends, the other team gets a Free Throw. 
 
 #### Pass
-If your Hooper has the ball, they may pass it to any teammate. However, you must roll the Ball to determine if it was successful. Find all opponent Hoopers who are on or adjacent to the passer's space, or the receiver's space. Tally up the total Defense stats of the opponents in all Defensive spaces. That is your difficulty score. Roll to Ball. If your roll is higher than that number, the pass is complete. If not, the defending team takes the ball, and begins their possession. 
+If your Hooper has the ball, they may pass it to any teammate. However, you must roll the Ball to determine if it was successful. Find all opponent Hoopers who are on or adjacent to the passer's space, or the receiver's space. Tally up the total Hands stats of the opponents in all Defensive spaces. That is your difficulty score. Roll to Ball. If your roll is higher than that number, the pass is complete. If not, the defending team takes the ball, and begins their possession. 
 
 #### Shoot
-If your Hooper has the ball, they may shoot. However, you must roll the Ball to know if the shot went in. Start with your Hooper's shooting stat. Use the lowest number if they are shooting from the key, the middle number if they are in the midrange, or the highest number if they are beyond the 3-point line. Then, find every opponent on or adjacent to your space(including diagonally). Add the defensive stats of each of these opponents to your shooting stat. This total is your Shot Difficulty. Roll the Ball. If your roll is higher than your Shot Difficulty, the shot is good. If not, the shot is a miss.
+If your Hooper has the ball, they may shoot. However, you must roll the Ball to know if the shot went in. Start with the Shooting Difficulty number in your Hooper's space. Then, add to this difficulty if there is an opposing Hooper in your space. If the opponent is taller than you, add 15. Finally, subtract your Hooper's Shooter Bonus stat. This total is your Shot Difficulty. Roll the Ball. If your roll is higher than your Shot Difficulty, the shot is good. If not, the shot is a miss.
 
+*Example: your Hooper is shooting from a space that has a difficulty of 8. There is an opponent in that space who is the same height. This pushes our difficulty to 18. But our Hooper has a Shooter Bonus of 6. This means that our Difficulty is 12. We must roll a 13 or higher to make the shot.*
+
+- Minimum and Maximum difficulty: The lowest difficulty a shot can have is 1, and the highest is 19. In other words, there is *always a chance* to make the shot or miss the shot, regardless of how hard or easy it is.
 - Rebounding: If you miss the shot, the rebound goes to the team who has more hoppers 1 space away from the rim. Tally up the defensive stats of the Hoopers 1 space from  the rim. Whichever team has more total defense under the rim gets the ball. If the defending team got the rebound, they immediately begin a possession. If the offense got the rebound, the Shot Clock is reset, and the defense takes their next turn as usual.
 
 ### Hustle Plays
