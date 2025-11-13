@@ -59,7 +59,7 @@ The action deck has a relatively small number of options. The effect of each act
 The number of spaces a Hooper with this action is determined by their Speed. 
 
 - Your Hooper may move into the space of an opposing Hooper. But you cannot have 2 of our own Hoopers on a space.
-- Screens: With your final move, you may move halfway into another space. This indicates that you are setting a screen between the two spaces. While your Hooper is there, Hoopers from the other team can move between these spaces along the border where you are setting your screen. Other Hoopers may still occupy each of the spaces your Hooper is screening between.
+- Screens: When you are done moving, even if you have no moves remaining, you may place your Hooper on the border between two spaces (you cannot do this if the Hooper you're moving has the ball). This indicates that you are setting a screen between the two spaces. While your Hooper is there, Hoopers from the other team can move between these spaces along the border where you are setting your screen. While your Hooper is there, they cannot receive passes, their Defense numbers are considered zero, and they do not count toward reboundings numbers. 
 
 When the Shot Clock is on 3, **all Hoopers** get +3 their normal movement speed. 
 
