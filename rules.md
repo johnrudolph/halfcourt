@@ -12,12 +12,11 @@ The first Team to score 11 points wins the game.
 - **10 Hooper Markers**: Each of these corrosponds with the Hooper Cards. These are the pieces you will actually move around on the board.
 - **1 Ball Die**: A 20-sided die which you will roll when you shoot or pass. The Ball tells you whether or not your shot or pass was successful.
 - **Activation Markers**: Each Hoooper has a unique skill which is only used when they are Activated. These Markers show how close each Hooper is to being Activated.
-- **Action cards** Each Team has an identical set of action cards, which they use to set plays for their Hoopers. 
 
 ## Setup
 - Set up the board in the middle of the table
 - Place the Score Markers in the 0 space on the scoreboard.
-- Place the Shot Clock Marker on the 4 space of the Shot Clock Meter on the Board.
+- Place the Shot Clock Marker on the 2 space of the Shot Clock Meter on the Board.
 
 Each player determines a team, either Purple or Yellow. Then each Team will select 3 Hoopers each. 
 
@@ -34,9 +33,7 @@ If this is not your first game, you will start by Drafting Hoopers onto your tea
 
 Once you have selected your 3 Hoopers, place their card in front of you on the normal side (not their "activated" side), and place their marker on the board.
 
-Always start the game with the Hoopers in the spaces in the diagram below.
-
-{{ add diagram }}
+Always start the game with your 3 Hoopers on the baseline. The Yellow team gives the ball to one of their 3 Hoopers.
 
 # Gameplay
 Yellow always has the ball first. 
@@ -47,54 +44,72 @@ When a Hoooper gains possession of the ball, move the shot clock marker to 3. A 
 A possession ends if the defense steals the ball, the defense rebounds the ball, the Shot Clock expires, or the offense scores. When any of these occur, the defense gains possession of the ball, and the shot clock returns to 3. 
 
 ## Round
-At the beginning of each round, both teams set their plays. In front of each of your Hooper cards, place one face-down action card. This is the action you intend for them to perform. The order of Hoopers does not matter: during your turn you can resolve them in any order you want. 
+At the beginning of each round, rotate any tapped or exhausted Hoopers 90 degrees clockwise (this will be explained in more detail later). Rounds simply consist of players taking turns performing an action with one of their Hoopers.
 
-Once both Teams have set their 3 action cards face-down, take turns revealing and resolving them one at a time, beginning with the offense.
+The defense always takes the first action.
 
 ### Actions
 
-The action deck has a relatively small number of options. The effect of each action is determined by the stats on your Hooper's card.
+On your turn, you may take 1 action with 1 of your Hoopers. The effect of each action is determined by the stats on your Hooper's card.
+
+After performing an action, rotate your Hooper card 90 degrees counterclockwise to indicate that the Hooper is tapped for this round. They will become untapped at the beginning of the next round.
+
+You may never "skip" a turn. Even if you don't want to do anything on your turn, you must tap one of your Hoopers.
+
+On your turn you may do one (and only one) of the following:
 
 #### Move
-The number of spaces a Hooper with this action is determined by their Speed. 
+You may always move. The number of spaces a Hooper with this action is determined by the Speed on their card. 
 
-- Your Hooper may move into the space of an opposing Hooper. But you cannot have 2 of our own Hoopers on a space.
-- Screens: When you are done moving, even if you have no moves remaining, you may place your Hooper on the border between two spaces (you cannot do this if the Hooper you're moving has the ball). This indicates that you are setting a screen between the two spaces. While your Hooper is there, Hoopers from the other team can move between these spaces along the border where you are setting your screen. While your Hooper is there, they cannot receive passes, their Defense numbers are considered zero, and they do not count toward reboundings numbers. 
+- It costs 2 moves to move into a space occupied by an opponent Hooper. 
+- It costs 3 moves to move into a space that an opponent Hooper is screening between.
+- Screens: When you are done moving, even if you have no moves remaining, you may place your Hooper on the border between two spaces (you cannot do this if the Hooper you're moving has the ball). This indicates that you are setting a screen between the two spaces. While your Hooper is there, they cannot receive passes, their Defense numbers are considered zero, and they do not count toward reboundings numbers. If you were previously screening, and you move on this turn, first move your Hooper into either space you were straddling, then begin moving.
 
-When the Shot Clock is on 3, **all Hoopers** get +3 their normal movement speed. 
+When the Shot Clock is on 2, **all Hoopers** get +2 their normal movement speed. 
 
 #### Pass
-If your Hooper has the ball, they may pass it to any teammate. However, you must roll the Ball to determine if it was successful. Find all opponent Hoopers who are on the passer's space, or the receiver's space. Tally up the total defense stats of the opponents in all Defensive spaces. That is your difficulty score. Roll to Ball. If your roll is higher than that number, the pass is complete. If not, the defending team takes the ball, and begins their possession. The defense may give the ball to any of their Hoopers in the passer's space, or the intended recipient's space.
+If your Hooper has the ball, they may pass it to any teammate. However, you must roll the Ball to determine if it was successful. 
+
+Defensive numbers work the same for passing and shooting. First, identify any defensive Hoopers on the passer's or receiver's space. Multiply their defense stats by 2. Then identify any *other* opponent Hoopers adjacent to either of their spaces, and add them to that number. This is your defense difficulty number.
+
+Example: Ray is passing to Vic. Big Lee is on Vic's space, and has defense of 3. We multiply that times 2 to get 6. Then Hakeem is adjacent to Ray's space, and his defense is 4. Our defense difficulty number is 10. 
+
+Roll to Ball. If your roll is higher than the defense difficulty numer, the pass is complete. If not, the defending team takes the ball, and begins their possession. The defense may give the ball to any of their Hoopers in the passer's space, or the intended recipient's space.
+
+The lowest difficulty a pass can have is 1. So even if there is no defense present, you still must roll the ball.
 
 #### Shoot
-Roll the Ball to determine if the shot went in. Here is how to calculate the shot difficulty: 
+If your Hoooper has the ball, they may always shoot. Roll the Ball to determine if the shot went in. Here is how to calculate the shot difficulty: 
 
 - Start with the Shooting Difficulty number in your Hooper's space, which is printed on the board.
-- If there is an opponent on your space, add their Defense stat. 
+- If there is an opponent on your space, add their Defense stat x2. Then add the defensive stats of any opposing Hoopers on adjacent spaces.
 - Subtract your Hooper's Shooter Bonus stat. 
 
 This total is your Shot Difficulty. Roll the Ball. If your roll is higher than your Shot Difficulty, the shot is good. If not, the shot is a miss.
 
-*Example: your Hooper is shooting from a space that has a difficulty of 8. There is an opponent on the space whose Defense stat is 7. But our Hooper has a Shooter Bonus of 6. This means that our Difficulty is 9. We must roll a 10 or higher to make the shot.*
+*Example: your Hooper is shooting from a space that has a difficulty of 8. There is an opponent on the space whose Defense stat is 3, so we add 6. There is another opponent adjacent whose defense is 2, so we add 2. But our Hooper has a Shooter Bonus of -6. This means that our shot difficulty is 10. We must roll a 11 or higher to make the shot.*
 
 The lowest difficulty a shot can have is 1, and the highest is 19. In other words, there is *always a chance* to make the shot or miss the shot, regardless of how hard or easy it is.
 
+You may take a shot from behind the half court line, but the difficulty is always 19, regardless of the Hooper's shooting bonus.
+
+If your shot is good, the defense picks a Hooper, gives them the ball, and places them on any space on the base line. Reset the shot clock to 2.
+
 **Rebounding**: If you miss the shot, the rebound goes to the team who has more Hoopers in the space directly below the rim. If there are no Hoopers in that space, the team with the most Hoopers in the next arc of spaces rebounds the ball. Continue outward until there is a region containing at least one Hooper. If that region has an equal number of Hoopers from each team, the tie always goes to the Defense. If your team rebounds the ball and you have multiple Hoopers in that region, you decide who gets the ball. If the defending team got the rebound, they immediately begin a possession and set the Shot Clock to 3. If the offense got the rebound, the Shot Clock is set to 2.
 
-### Audibles
+Exhausted Hoopers do not count toward rebounds, and cannot hold the ball. In the rare case where there are no non-exhausted Hoopers nearby, continue into the back court, ring by ring until you find a ring that has an elligible rebounder. 
 
-When revealing an action card for one of your Hoopers, you may always do a different action than what is printed on the card, but with a penalty. You may: 
+In the extremely rare case where all 6 Hoopers are exhausted, give the ball to the defense, move the shot clock directly to 1, and reset all Hoopers.
 
-- **Move** half the numbers of spaces (rounded down) that you could normally move.
-- **Shoot**, but with 5 additional difficulty added to the shot.
-- **Pass**, but with 5 additional difficulty added to the pass.
-
-If you ever reveal an Action that you cannot play (for example, the card you reveal says pass or shoot, and that Hooper does not have the ball), you must do a different action with a penalty.
+#### Steal
+If you are on defense and you are on or adjacent to the ball's space, you may attempt to steal the ball. Add up the defensive numbers as usual, accounting for your Hoopers on the ball's space, and adjacent to it. The ball handler rolls the die. If they roll higher than the defensive number, they keep the ball. Otherwise, you successfully steal the ball.
 
 ### Hustle Plays
-On your turn, you may play a card from your hand for a Hooper who already revealed their Action card. This is called a Hustle Play. After you perform this second action for them, you Exhaust them: turn the card to face horizontally. When Exhausted, a Hooper will not take *any* actions on the following round. At the end of the next round, turn them to face vertically as usual again. You may only make a Hustle Play with a given Hooper once per round.
+On your turn, you may perform an action with a Hooper who is already tapped. This is called a Hustle Play. After you perform this second action for them, the Hooper will be exhausted: rotate them another 90 degrees counterclockwise so the card is upside down. When Exhausted, a Hooper will not take *any* actions on the following round, and cannot make another Hustle play this round. At the start of the next round, you will rotate them 90 degrees to return them to the Tapped state.
 
-*Note*: When all 3 Hoopers have Action cards in front of them, you still have an opportunity to do a Hustle Play. You may also pass, meaning that you will forego the opportunity to do a Hustle Play. The round ends once the Offense and Defense both pass. 
+Exhausted players *do* still contribute to defensive numbers.
+
+*Note*: When all 3 Hoopers are tapped, you still have an opportunity to do a Hustle Play. You may also pass, meaning that you will forego the opportunity to do a Hustle Play. The round ends once the Offense and Defense both pass. 
 
 ### Activating
 Each Hooper also has a special perk for being Activated. Each Hooper gets Activated differently. Some need to do specific things multiple times (for example: hit two 3-pointers), while others just need specific circumstances to happen (for example: when your opponent has 6 or more points).
