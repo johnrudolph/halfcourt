@@ -191,9 +191,9 @@
         "Activated Defense": 1,
         "Activated Shooting": -3,
         "Perk Name": "Shoot off the Dribble",
-        "Base Description": "After making two 3-pointers, ACTIVATE: you are allowed to move a space before shooting.",
-        "Activated Description": "When you shoot, you may move 1 space before shooting.",
-        "Activation Threshold": 2
+        "Base Description": "After making a 3-pointer, ACTIVATE: you are allowed to move a space before shooting.",
+        "Activated Description": "When you shoot, you may move 1 space before shooting. When doing this, +5 difficulty.",
+        "Activation Threshold": 1
     },
     {
         "Name": "Rudy",
