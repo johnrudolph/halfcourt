@@ -150,7 +150,7 @@
         "Activated Shooting": -3,
         "Perk Name": "Catch and Shoot",
         "Base Description": "After receiving 4 passes, ACTIVATE: shoot immediately after catching a pass.",
-        "Activated Description": "After catching a pass, you may immediately shoot without playing a card. When you do this, your shot gets +5 difficulty.",
+        "Activated Description": "After catching a pass, you may immediately shoot, even if you have already taken an action this turn. When you do this, your shot gets +5 difficulty.",
         "Activation Threshold": 4
     },
     {
@@ -192,7 +192,7 @@
         "Activated Shooting": -3,
         "Perk Name": "Shoot off the Dribble",
         "Base Description": "After making two 3-pointers, ACTIVATE: you are allowed to move a space before shooting.",
-        "Activated Description": "When you play a shoot card, you may move 1 space before shooting.",
+        "Activated Description": "When you shoot, you may move 1 space before shooting.",
         "Activation Threshold": 2
     },
     {
