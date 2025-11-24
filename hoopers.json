@@ -1,0 +1,16 @@
+[
+    {
+        "Name": "Big Lee",
+        "Position": "Center",
+        "Base Speed": 3,
+        "Base Defense": 3,
+        "Base Shooting": 0,
+        "Activated Speed": 3,
+        "Activated Defense": 3,
+        "Activated Shooting": 0,
+        "Perk Name": "Posterizer",
+        "Base Description": "After scoring in the paint 2 times, ACTIVATE: become an offensive menace in the paint.",
+        "Activated Description": "When shooting from the paint, if there is an opponent forward or a guard in the paint, -5 shot difficulty.",
+        "Activation Threshold": 2
+    }
+]
