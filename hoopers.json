@@ -9,9 +9,9 @@
         "Activated Defense": 2,
         "Activated Shooting": 0,
         "Perk Name": "Sick Handles",
-        "Base Description": "After moving while holding the ball 5 times, ACTIVATE: dribble through your opponent's with ease.",
+        "Base Description": "After moving while holding the ball 4 times, ACTIVATE: dribble through your opponent's with ease.",
         "Activated Description": "Once per turn, gain +3 movement when moving into an opponent's space while holding the ball.",
-        "Activation Threshold": 5
+        "Activation Threshold": 4
     },
     {
         "Name": "Bruce",
@@ -23,9 +23,9 @@
         "Activated Defense": 6,
         "Activated Shooting": 0,
         "Perk Name": "Posterizer",
-        "Base Description": "After scoring in the paint 2 times, ACTIVATE: become an offensive menace in the paint.",
+        "Base Description": "After scoring in the paint, ACTIVATE: become an offensive menace in the paint.",
         "Activated Description": "When shooting from the paint, if there is an opponent forward or a guard in the paint, -5 shot difficulty.",
-        "Activation Threshold": 2
+        "Activation Threshold": 1
     },
     {
         "Name": "Casey",
@@ -37,9 +37,9 @@
         "Activated Defense": 3,
         "Activated Shooting": 0,
         "Perk Name": "Rally",
-        "Base Description": "After becoming exhausted 4 times, ACTIVATE: give your teammates energy by becoming exhausted.",
+        "Base Description": "After becoming exhausted twice, ACTIVATE: give your teammates energy by hustling.",
         "Activated Description": "When you become exhausted, your teammates each gain 1 energy.",
-        "Activation Threshold": 4
+        "Activation Threshold": 2
     },
     {
         "Name": "Brad",
@@ -51,9 +51,9 @@
         "Activated Defense": 3,
         "Activated Shooting": 0,
         "Perk Name": "Dealing Dimes",
-        "Base Description": "After you make 5 successful passes, ACTIVATE: all of your passes will be successful",
+        "Base Description": "After you make 3 successful passes, ACTIVATE: all of your passes will be successful",
         "Activated Description": "When you pass, ignore the defense. All of your passes will be complete.",
-        "Activation Threshold": 2
+        "Activation Threshold": 3
     },
     {
         "Name": "Jimmy",
@@ -65,9 +65,9 @@
         "Activated Defense": 3,
         "Activated Shooting": -6,
         "Perk Name": "Heat Check",
-        "Base Description": "After hitting 3 shots without missing, ACTIVATE: Become an elite shooter. If you miss a shot, remove all tokens and start over. ",
+        "Base Description": "After hitting 2 shots without missing, ACTIVATE: Become an elite shooter. If you miss a shot, remove all tokens and start over. ",
         "Activated Description": "",
-        "Activation Threshold": 3
+        "Activation Threshold": 2
     },
     {
         "Name": "Julie",
@@ -79,9 +79,9 @@
         "Activated Defense": 5,
         "Activated Shooting": -1,
         "Perk Name": "Team Player",
-        "Base Description": "When your team has made 3 shots, ACTIVATE: instead of activating yourself, you may Activate one of your teammates.",
+        "Base Description": "When your team has made 2 shots, ACTIVATE: instead of activating yourself, you may Activate one of your teammates. If you do this, remove all activate markers from here and start over.",
         "Activated Description": "",
-        "Activation Threshold": 3
+        "Activation Threshold": 2
     },
     {
         "Name": "Lindsey",
@@ -121,9 +121,9 @@
         "Activated Defense": 6,
         "Activated Shooting": 0,
         "Perk Name": "Brick Wall",
-        "Base Description": "After you have set 4 screens, ACTIVATE: become an elite screener.",
+        "Base Description": "After you have set 3 screens, ACTIVATE: become an elite screener.",
         "Activated Description": "When you set a screen, you may screen on a corner between 3 or 4 spaces at once. When doing this, your screen applies to all lines emerging from that corner.",
-        "Activation Threshold": 4
+        "Activation Threshold": 3
     },
     {
         "Name": "Michael",
@@ -135,23 +135,9 @@
         "Activated Defense": 5,
         "Activated Shooting": 0,
         "Perk Name": "Push off",
-        "Base Description": "After moving into an opponent's space 4 times, ACTIVATE: push opponents out of the way.",
+        "Base Description": "After moving into an opponent's space 3 times, ACTIVATE: push opponents out of the way.",
         "Activated Description": "When moving into an opponent's space, you may push them into any adjacent space.",
-        "Activation Threshold": 4
-    },
-    {
-        "Name": "Sara",
-        "Position": "Guard",
-        "Base Speed": 4,
-        "Base Defense": 1,
-        "Base Shooting": -3,
-        "Activated Speed": 4,
-        "Activated Defense": 1,
-        "Activated Shooting": -3,
-        "Perk Name": "Catch and Shoot",
-        "Base Description": "After receiving 4 passes, ACTIVATE: shoot immediately after catching a pass.",
-        "Activated Description": "After catching a pass, you may immediately shoot, even if you have already taken an action this turn. When you do this, your shot gets +5 difficulty.",
-        "Activation Threshold": 4
+        "Activation Threshold": 3
     },
     {
         "Name": "Nate",
@@ -163,9 +149,9 @@
         "Activated Defense": 7,
         "Activated Shooting": -1,
         "Perk Name": "Vacuum",
-        "Base Description": "After your team collects 3 rebounds, ACTIVATE: Vic wins tied rebounds, even on offense.",
-        "Activated Description": "When Nate is tied for a rebound, he wins the rebound, even if he is on offense.",
-        "Activation Threshold": 3
+        "Base Description": "After your team collects 2 rebounds, ACTIVATE: Nate wins tied rebounds, even on offense.",
+        "Activated Description": "When your team is tied for a rebound and Nate is in the rebound area, he wins the rebound, even if he is on offense.",
+        "Activation Threshold": 2
     },
     {
         "Name": "Ramona",
@@ -177,18 +163,46 @@
         "Activated Defense": 6,
         "Activated Shooting": 0,
         "Perk Name": "Control the Paint",
-        "Base Description": "After your team collects 3 rebounds, Activate: become an unstoppable defender in the paint.",
+        "Base Description": "After your team collects 2 rebounds, Activate: become an unstoppable defender in the paint.",
         "Activated Description": "When you are in the paint, opponents shooting from the paint get an extra +5 difficulty.",
-        "Activation Threshold": 3
+        "Activation Threshold": 2
+    },
+    {
+        "Name": "Sara",
+        "Position": "Guard",
+        "Base Speed": 3,
+        "Base Defense": 4,
+        "Base Shooting": 0,
+        "Activated Speed": 4,
+        "Activated Defense": 5,
+        "Activated Shooting": -1,
+        "Perk Name": "Quick Recovery",
+        "Base Description": "After resting twice, ACTIVATE: resting fully restores your energy.",
+        "Activated Description": "When you rest, return to the top level of the energy mat.",
+        "Activation Threshold": 2
+    },
+    {
+        "Name": "Lucy",
+        "Position": "Guard",
+        "Base Speed": 3,
+        "Base Defense": 4,
+        "Base Shooting": 0,
+        "Activated Speed": 4,
+        "Activated Defense": 5,
+        "Activated Shooting": -1,
+        "Perk Name": "Clutch",
+        "Base Description": "After making 2 Hustle Plays, ACTIVATE: Hustle even when you have 1 energy.",
+        "Activated Description": "You may perform a hustle play even when you have 1 energy.",
+        "Activation Threshold": 2
     },
     {
         "Name": "Jon",
         "Position": "Guard",
         "Base Speed": 4,
-        "Base Defense": 1,
+        "Base Defense": 2,
         "Base Shooting": -3,
         "Activated Speed": 4,
-        "Activated Defense": 1,
+        "Activated Defense": 2,
         "Activated Shooting": -3,
         "Perk Name": "Shoot off the Dribble",
         "Base Description": "After making a 3-pointer, ACTIVATE: you are allowed to move a space before shooting.",
@@ -205,9 +219,9 @@
         "Activated Defense": 7,
         "Activated Shooting": -1,
         "Perk Name": "Show Stopper",
-        "Base Description": "After getting 2 steals or intercepted passes, ACTIVATE: instead of activating yourself, you may de-activate an opponent.",
+        "Base Description": "After getting a steal or intercepting a pass, ACTIVATE: instead of activating yourself, you may de-activate an opponent.",
         "Activated Description": "",
-        "Activation Threshold": 2
+        "Activation Threshold": 1
     },
     {
         "Name": "Stacy",

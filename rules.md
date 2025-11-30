@@ -16,7 +16,7 @@ The first Team to score 11 points wins the game.
 ## Setup
 - Set up the board in the middle of the table
 - Place the Score Markers in the 0 space on the scoreboard.
-- Place the Shot Clock Marker on the 2 space of the Shot Clock Meter on the Board.
+- Place the Shot Clock Marker on the 3 space of the Shot Clock Meter on the Board.
 
 Each player determines a team, either Purple or Yellow. Then each Team will select 3 Hoopers each. 
 
@@ -41,80 +41,83 @@ Yellow always has the ball first.
 ## Possession 
 When a Hoooper gains possession of the ball, move the shot clock marker to 3. A possession will be made up of a maximum of 3 rounds. During a round, each of your Hoopers will take an action. 
 
-A possession ends if the defense steals the ball, the defense rebounds the ball, the Shot Clock expires, or the offense scores. When any of these occur, the defense gains possession of the ball, and the shot clock returns to 3. 
+A possession ends if the defense steals the ball, the defense rebounds the ball, the Shot Clock expires, or the offense scores. When any of these occur, the defense gains possession of the ball, and the shot clock returns to 3. If the offense gets their own rebound, the shot clock returns to 2.
 
 ## Round
-At the beginning of each round, rotate any tapped or exhausted Hoopers 90 degrees clockwise (this will be explained in more detail later). Rounds simply consist of players taking turns performing an action with one of their Hoopers.
-
-The defense always takes the first action.
+Rounds simply consist of players taking turns performing an action with one of their Hoopers. The defense always takes the first action.
 
 ### Actions
 
-On your turn, you may take 1 action with 1 of your Hoopers. The effect of each action is determined by the stats on your Hooper's card.
+On your turn, you may take an action with each of your Hoopers. The effect of each action is determined by the stats on your Hooper's card. You may perform actions in any order you choose.
 
-After performing an action, rotate your Hooper card 90 degrees counterclockwise to indicate that the Hooper is tapped for this round. They will become untapped at the beginning of the next round.
-
-You may never "skip" a turn. Even if you don't want to do anything on your turn, you must tap one of your Hoopers.
+When performing an action with your Hooper, move them down 1 level on the energy mat. You may choose to rest a Hooper instead of performing an action: move them up 2 levels on the energy mat. If a given Hooper is in the lowest level of the energy mat (they are exhausted), they *must* rest.
 
 On your turn you may do one (and only one) of the following:
 
 #### Move
 You may always move. The number of spaces a Hooper with this action is determined by the Speed on their card. 
 
+- If a Hooper is in the back court when you start your turn, they get +2 movement.
 - It costs 2 moves to move into a space occupied by an opponent Hooper. 
-- It costs 3 moves to move into a space that an opponent Hooper is screening between.
+- You can never move through an opponent's screen, but you may freely pass through a teammate's screen.
 - Screens: When you are done moving, even if you have no moves remaining, you may place your Hooper on the border between two spaces (you cannot do this if the Hooper you're moving has the ball). This indicates that you are setting a screen between the two spaces. While your Hooper is there, they cannot receive passes, their Defense numbers are considered zero, and they do not count toward reboundings numbers. If you were previously screening, and you move on this turn, first move your Hooper into either space you were straddling, then begin moving.
-
-When the Shot Clock is on 2, **all Hoopers** get +2 their normal movement speed. 
 
 #### Pass
 If your Hooper has the ball, they may pass it to any teammate. However, you must roll the Ball to determine if it was successful. 
 
-Defensive numbers work the same for passing and shooting. First, identify any defensive Hoopers on the passer's or receiver's space. Multiply their defense stats by 2. Then identify any *other* opponent Hoopers adjacent to either of their spaces, and add them to that number. This is your defense difficulty number.
+Defensive numbers work the same for passing and shooting. Add the defensive stats of the opposing Hoopers in the passer's space and the receiver's space. You must roll a number higher than those combined numbers.
 
-Example: Ray is passing to Vic. Big Lee is on Vic's space, and has defense of 3. We multiply that times 2 to get 6. Then Hakeem is adjacent to Ray's space, and his defense is 4. Our defense difficulty number is 10. 
+Example: Ray is passing to Vic. Big Lee is on Vic's space, and has defense of 3. Then Hakeem is in Ray's space, and his defense is 4. Our defense difficulty number is 7, and we must roll an 8 or higher for the pass to be successful. 
 
-Roll to Ball. If your roll is higher than the defense difficulty numer, the pass is complete. If not, the defending team takes the ball, and begins their possession. The defense may give the ball to any of their Hoopers in the passer's space, or the intended recipient's space.
+Roll to Ball. If your roll is higher than the defense difficulty numer, the pass is complete. If not, the defending team takes the ball. The defense may give the ball to any of their Hoopers in the passer's space, or the intended recipient's space.
 
-The lowest difficulty a pass can have is 1. So even if there is no defense present, you still must roll the ball.
+- The lowest difficulty a pass can have is 1. So even if there is no defense present, you still must roll the ball. If you roll a 1 on an undefended pass, the defense gets the ball on their baseline as if you had just scored.
+- You may never pass to a teammate who is behind the half court line.
+- Note: immediately after a stolen pass, the shot clock will reset, and then defense will take the next turn. there are Hoopers on your team who have not taken an action on this turn, your turn will still end immediately.
 
 #### Shoot
 If your Hoooper has the ball, they may always shoot. Roll the Ball to determine if the shot went in. Here is how to calculate the shot difficulty: 
 
 - Start with the Shooting Difficulty number in your Hooper's space, which is printed on the board.
-- If there is an opponent on your space, add their Defense stat x2. Then add the defensive stats of any opposing Hoopers on adjacent spaces.
+- Add the defense stat of any opponents in your space.
 - Subtract your Hooper's Shooter Bonus stat. 
 
 This total is your Shot Difficulty. Roll the Ball. If your roll is higher than your Shot Difficulty, the shot is good. If not, the shot is a miss.
 
-*Example: your Hooper is shooting from a space that has a difficulty of 8. There is an opponent on the space whose Defense stat is 3, so we add 6. There is another opponent adjacent whose defense is 2, so we add 2. But our Hooper has a Shooter Bonus of -6. This means that our shot difficulty is 10. We must roll a 11 or higher to make the shot.*
+*Example: your Hooper is shooting from a space that has a difficulty of 8. There is an opponent on the space whose Defense stat is 3, so we add 3. But our Hooper has a Shooter Bonus of -2. This means that our shot difficulty is 9. We must roll a 10 or higher to make the shot.*
 
 The lowest difficulty a shot can have is 1, and the highest is 19. In other words, there is *always a chance* to make the shot or miss the shot, regardless of how hard or easy it is.
 
 You may take a shot from behind the half court line, but the difficulty is always 19, regardless of the Hooper's shooting bonus.
 
-If your shot is good, the defense picks a Hooper, gives them the ball, and places them on any space on the base line. Reset the shot clock to 2.
+If your shot is good, update the scoreboard, the defense picks a Hooper, gives them the ball, and places them on any space on the base line. Reset the shot clock to 3.
 
 **Rebounding**: If you miss the shot, the rebound goes to the team who has more Hoopers in the space directly below the rim. If there are no Hoopers in that space, the team with the most Hoopers in the next arc of spaces rebounds the ball. Continue outward until there is a region containing at least one Hooper. If that region has an equal number of Hoopers from each team, the tie always goes to the Defense. If your team rebounds the ball and you have multiple Hoopers in that region, you decide who gets the ball. If the defending team got the rebound, they immediately begin a possession and set the Shot Clock to 3. If the offense got the rebound, the Shot Clock is set to 2.
 
-Exhausted Hoopers do not count toward rebounds, and cannot hold the ball. In the rare case where there are no non-exhausted Hoopers nearby, continue into the back court, ring by ring until you find a ring that has an elligible rebounder. 
-
-In the extremely rare case where all 6 Hoopers are exhausted, give the ball to the defense, move the shot clock directly to 1, and reset all Hoopers.
+- Note: immediately after a missed or made shot, the shot clock will reset, and then defense will take the next turn. So if you intend to move or rest another Hooper on this turn, do it before shooting.
 
 #### Steal
 If you are on defense and you are on or adjacent to the ball's space, you may attempt to steal the ball. Add up the defensive numbers as usual, accounting for your Hoopers on the ball's space, and adjacent to it. The ball handler rolls the die. If they roll higher than the defensive number, they keep the ball. Otherwise, you successfully steal the ball.
 
 ### Hustle Plays
-On your turn, you may perform an action with a Hooper who is already tapped. This is called a Hustle Play. After you perform this second action for them, the Hooper will be exhausted: rotate them another 90 degrees counterclockwise so the card is upside down. When Exhausted, a Hooper will not take *any* actions on the following round, and cannot make another Hustle play this round. At the start of the next round, you will rotate them 90 degrees to return them to the Tapped state.
+When performing an action, if you have 2 or 3 Energy, you may perform a Hustle Play. Hustle Plays boost your stats: 
 
-Exhausted players *do* still contribute to defensive numbers.
+- If you are moving, get +2 movement.
+- If you are shooting or passing, get -3 difficulty.
+- If you are on defense, you may move *and* immediately attempt a steal all in one turn.
+- If you are on offense, you may move *and* immediately pass all in one turn.
 
-*Note*: When all 3 Hoopers are tapped, you still have an opportunity to do a Hustle Play. You may also pass, meaning that you will forego the opportunity to do a Hustle Play. The round ends once the Offense and Defense both pass. 
+However, Hustle Plays immediately move you to the exhausted level on the energy mat.
 
 ### Activating
-Each Hooper also has a special perk for being Activated. Each Hooper gets Activated differently. Some need to do specific things multiple times (for example: hit two 3-pointers), while others just need specific circumstances to happen (for example: when your opponent has 6 or more points).
+Each Hooper also has a special perk for being Activated. Each Hooper gets Activated differently. For example, a Hooper might require 3 complete passes before Activating. Every time you complete a pass with them, put an Activation Marker on their card to show progress.
 
-When one of your Hoopers Activates, flip their Card to the Activated side so it is clear that they now have their special ability.
+When one of your Hoopers Activates, flip their Card to the Activated side so it is clear that they now have their special ability, and discard the markers on them.
+
+- In some cases the ability might be immediately useful this turn. That is valid. Abilities activate immediately and apply to the current turn.
+
+### Shot clock
+After each round, which consists of the defense and then offense taking a turn, move the shot clock down a level. If the shot clock reaches zero without the offense taking a shot, the ball is turned over. The defense chooses a player to take possession of the ball, places them on any baseline space, and a new round begins.
 
 ## End of Game
-The game ends when a team has more than 11 points, and it is not tied. Since Yellow always goes first, Purple must always take the last turn. 
+The game ends when a team has more than 11 points, and it is not tied. Since Yellow always goes first, Purple must always take the last turn. If it is tied, continue playing until Purple takes a turn and the score is not tied.
