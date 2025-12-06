@@ -79,7 +79,7 @@
         "Activated Defense": 5,
         "Activated Shooting": -1,
         "Perk Name": "Team Player",
-        "Base Description": "When your team has made 2 shots, ACTIVATE: instead of activating yourself, you may Activate one of your teammates. If you do this, remove all activate markers from here and start over.",
+        "Base Description": "When your team has made 2 shots, ACTIVATE: instead of activating yourself, you may activate one of your teammates. If you do this, remove all activation markers from here and start over.",
         "Activated Description": "",
         "Activation Threshold": 2
     },
