@@ -9,9 +9,9 @@
         "Activated Defense": 2,
         "Activated Shooting": 0,
         "Perk Name": "Sick Handles",
-        "Base Description": "After moving while holding the ball 4 times, ACTIVATE: dribble through your opponent's with ease.",
+        "Base Description": "After moving while holding the ball 3 times, ACTIVATE: dribble through your opponent's with ease.",
         "Activated Description": "Once per turn, gain +3 movement when moving into an opponent's space while holding the ball.",
-        "Activation Threshold": 4
+        "Activation Threshold": 3
     },
     {
         "Name": "Bruce",
