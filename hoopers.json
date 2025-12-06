@@ -164,7 +164,7 @@
         "Activated Shooting": 0,
         "Perk Name": "Control the Paint",
         "Base Description": "After your team collects 2 rebounds, Activate: become an unstoppable defender in the paint.",
-        "Activated Description": "When you are in the paint, opponents shooting from the paint get an extra +5 difficulty.",
+        "Activated Description": "When Ramona is in the paint, opponents shooting from the paint get an extra +5 difficulty.",
         "Activation Threshold": 2
     },
     {
