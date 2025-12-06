@@ -56,7 +56,7 @@
         "Activation Threshold": 3
     },
     {
-        "Name": "Jimmy",
+        "Name": "Nate",
         "Position": "Forward",
         "Base Speed": 3,
         "Base Defense": 3,
@@ -140,7 +140,7 @@
         "Activation Threshold": 3
     },
     {
-        "Name": "Nate",
+        "Name": "Jimmy",
         "Position": "Center",
         "Base Speed": 3,
         "Base Defense": 6,
@@ -149,8 +149,8 @@
         "Activated Defense": 7,
         "Activated Shooting": -1,
         "Perk Name": "Vacuum",
-        "Base Description": "After your team collects 2 rebounds, ACTIVATE: Nate wins tied rebounds, even on offense.",
-        "Activated Description": "When your team is tied for a rebound and Nate is in the rebound area, he wins the rebound, even if he is on offense.",
+        "Base Description": "After your team collects 2 rebounds, ACTIVATE: Jimmy wins tied rebounds, even on offense.",
+        "Activated Description": "When your team is tied for a rebound and Jimmy is in the rebound area, he wins the rebound, even if he is on offense.",
         "Activation Threshold": 2
     },
     {
