@@ -233,8 +233,8 @@
         "Activated Defense": 3,
         "Activated Shooting": -6,
         "Perk Name": "Streaky Shooter",
-        "Base Description": "If you make a shot, ACTIVATE: become a great shooter.",
-        "Activated Description": "If you miss a shot, DE-ACTIVATE: become a worse shooter.",
+        "Base Description": "After making a shot, ACTIVATE: become a great shooter.",
+        "Activated Description": "After missing a shot, DE-ACTIVATE: become a worse shooter.",
         "Activation Threshold": 1
     }
 ]
