@@ -10,8 +10,22 @@
         "Activated Shooting": 0,
         "Perk Name": "Sick Handles",
         "Base Description": "After moving while holding the ball 3 times, ACTIVATE: dribble through your opponent's with ease.",
-        "Activated Description": "Once per turn, gain +3 movement when moving into an opponent's space while holding the ball.",
+        "Activated Description": "Once per turn, gain +3 movement when moving into an opponent's space while holding the ball. Exhaust.",
         "Activation Threshold": 3
+    },
+    {
+        "Name": "Emma",
+        "Position": "Center",
+        "Base Speed": 3,
+        "Base Defense": 6,
+        "Base Shooting": 0,
+        "Activated Speed": 3,
+        "Activated Defense": 7,
+        "Activated Shooting": -1,
+        "Perk Name": "Double Team",
+        "Base Description": "After moving into an opponent's space while a teammate is also on your space twice: ACTIVATE: get a boost to steal attempts.",
+        "Activated Description": "When attempting to steal when a teammate is also on your space, your opponent gets -5 on their roll. Exhaust.",
+        "Activation Threshold": 2
     },
     {
         "Name": "Bruce",
@@ -24,7 +38,7 @@
         "Activated Shooting": 0,
         "Perk Name": "Posterizer",
         "Base Description": "After scoring in the paint, ACTIVATE: become an offensive menace in the paint.",
-        "Activated Description": "When shooting from the paint, if there is an opponent forward or a guard in the paint, -5 shot difficulty.",
+        "Activated Description": "When shooting from the paint, if there is an opponent forward or a guard in the paint, -5 shot difficulty. Exhaust.",
         "Activation Threshold": 1
     },
     {
@@ -37,7 +51,7 @@
         "Activated Defense": 3,
         "Activated Shooting": 0,
         "Perk Name": "Rally",
-        "Base Description": "After becoming exhausted twice, ACTIVATE: give your teammates energy by hustling.",
+        "Base Description": "After becoming exhausted twice, ACTIVATE: give your teammates energy by exhausting.",
         "Activated Description": "When you become exhausted, your teammates each gain 1 energy.",
         "Activation Threshold": 2
     },
@@ -65,7 +79,7 @@
         "Activated Defense": 3,
         "Activated Shooting": -6,
         "Perk Name": "Heat Check",
-        "Base Description": "After hitting 2 shots without missing, ACTIVATE: Become an elite shooter. If you miss a shot, remove all tokens and start over. ",
+        "Base Description": "After hitting 2 shots without missing, ACTIVATE: Become an elite shooter. If you miss a shot, remove all tokens and start over.",
         "Activated Description": "",
         "Activation Threshold": 2
     },
@@ -94,7 +108,7 @@
         "Activated Shooting": 0,
         "Perk Name": "Lock Down Defender",
         "Base Description": "After successfully stealing or intercepting 1 pass, ACTIVATE: move an extra space when your opponent is about to shoot.",
-        "Activated Description": "If an opponent is about to shoot from a space adjacent to you, you may move into their space before they do.",
+        "Activated Description": "If an opponent is about to shoot from a space adjacent to you, you may move into their space before they do. Exhaust.",
         "Activation Threshold": 1
     },
     {
@@ -108,7 +122,7 @@
         "Activated Shooting": 0,
         "Perk Name": "Lucky Bounce",
         "Base Description": "After missing 2 shots, ACTIVATE: get an extra roll after missing a shot.",
-        "Activated Description": "After missing a shot, roll the ball once more for a second chance.",
+        "Activated Description": "After missing a shot, roll the ball once more for a second chance. Exhaust.",
         "Activation Threshold": 2
     },
     {
@@ -122,7 +136,7 @@
         "Activated Shooting": 0,
         "Perk Name": "Brick Wall",
         "Base Description": "After you have set 3 screens, ACTIVATE: become an elite screener.",
-        "Activated Description": "When you set a screen, you may screen on a corner between 3 or 4 spaces at once. When doing this, your screen applies to all lines emerging from that corner.",
+        "Activated Description": "When you set a screen, you may screen on a corner between 3 or 4 spaces at once. When doing this, your screen applies to all lines emerging from that corner. Exhaust.",
         "Activation Threshold": 3
     },
     {
@@ -136,7 +150,7 @@
         "Activated Shooting": 0,
         "Perk Name": "Push off",
         "Base Description": "After moving into an opponent's space 3 times, ACTIVATE: push opponents out of the way.",
-        "Activated Description": "When moving into an opponent's space, you may push them into any adjacent space.",
+        "Activated Description": "When moving into an opponent's space, you may push them into any adjacent space. Exhaust.",
         "Activation Threshold": 3
     },
     {
@@ -150,7 +164,7 @@
         "Activated Shooting": -1,
         "Perk Name": "Vacuum",
         "Base Description": "After your team collects 2 rebounds, ACTIVATE: Jimmy wins tied rebounds, even on offense.",
-        "Activated Description": "When your team is tied for a rebound and Jimmy is in the rebound area, he wins the rebound, even if he is on offense.",
+        "Activated Description": "When your team is tied for a rebound and Jimmy is in the rebound area, he wins the rebound, even if he is on offense. Exhaust.",
         "Activation Threshold": 2
     },
     {
@@ -177,22 +191,8 @@
         "Activated Defense": 5,
         "Activated Shooting": -1,
         "Perk Name": "Quick Recovery",
-        "Base Description": "After resting twice, ACTIVATE: resting fully restores your energy.",
-        "Activated Description": "When you rest, return to the top level of the energy mat.",
-        "Activation Threshold": 2
-    },
-    {
-        "Name": "Lucy",
-        "Position": "Guard",
-        "Base Speed": 3,
-        "Base Defense": 4,
-        "Base Shooting": 0,
-        "Activated Speed": 4,
-        "Activated Defense": 5,
-        "Activated Shooting": -1,
-        "Perk Name": "Clutch",
-        "Base Description": "After making 2 Hustle Plays, ACTIVATE: Hustle even when you have 1 energy.",
-        "Activated Description": "You may perform a hustle play even when you have 1 energy.",
+        "Base Description": "After resting twice, ACTIVATE: have a chance to recover immediately from exhuastion.",
+        "Activated Description": "When you begin your turn exhausted, roll the ball. If you roll higher than 10, immediately return to the normal state on your energy mat.",
         "Activation Threshold": 2
     },
     {
@@ -206,7 +206,7 @@
         "Activated Shooting": -3,
         "Perk Name": "Shoot off the Dribble",
         "Base Description": "After making a 3-pointer, ACTIVATE: you are allowed to move a space before shooting.",
-        "Activated Description": "When you shoot, you may move 1 space before shooting. When doing this, +5 difficulty.",
+        "Activated Description": "When you shoot, you may move 1 space before shooting. When doing this, +5 difficulty. Exhaust.",
         "Activation Threshold": 1
     },
     {
@@ -219,7 +219,7 @@
         "Activated Defense": 7,
         "Activated Shooting": -1,
         "Perk Name": "Show Stopper",
-        "Base Description": "After getting a steal or intercepting a pass, ACTIVATE: instead of activating yourself, you may de-activate an opponent.",
+        "Base Description": "After getting a steal or intercepting a pass, ACTIVATE: instead of activating yourself, you may de-activate an opponent. You may do this more than once.",
         "Activated Description": "",
         "Activation Threshold": 1
     },
