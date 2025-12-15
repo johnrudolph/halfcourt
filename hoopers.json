@@ -56,7 +56,7 @@
         "Activation Threshold": 2
     },
     {
-        "Name": "Emma",
+        "Name": "Dan",
         "Position": "Center",
         "Base Speed": 3,
         "Base Defense": 6,
@@ -66,9 +66,24 @@
         "Activated Shooting": 0,
         "Perk Name": "Give me the rock!",
         "Base Description": "After receiving 2 passes, ACTIVATE: get extra actions after receiving passes.",
-        "Activated Description": "When Emma takes a turn immediately after receiving a pass, she gets +1 action.",
+        "Activated Description": "When Dan takes a turn immediately after receiving a pass, he gets +1 action.",
         "Activation Threshold": 2
     },
+    {
+        "Name": "Emma",
+        "Position": "Guard",
+        "Base Speed": 4,
+        "Base Defense": 4,
+        "Base Shooting": -1,
+        "Activated Speed": 3,
+        "Activated Defense": 4,
+        "Activated Shooting": -2,
+        "Perk Name": "Double Team Specialist",
+        "Base Description": "After moving into a space containing an opponent with the ball and a teammate twice, ACTIVATE: become elite at stealing",
+        "Activated Description": "When attempting a steal while a teammate is also in your space, +5 to your defense number. Exhaust.",
+        "Activation Threshold": 2
+    },
+    
     {
         "Name": "Nate",
         "Position": "Forward",
