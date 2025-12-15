@@ -9,9 +9,9 @@
         "Activated Defense": 2,
         "Activated Shooting": 0,
         "Perk Name": "Sick Handles",
-        "Base Description": "After moving while holding the ball 4 times, ACTIVATE: dribble through your opponent's with ease.",
+        "Base Description": "After moving while holding the ball 3 times, ACTIVATE: dribble through your opponent's with ease.",
         "Activated Description": "Once per turn, gain +3 movement when moving into an opponent's space while holding the ball.",
-        "Activation Threshold": 4
+        "Activation Threshold": 3
     },
     {
         "Name": "Bruce",
@@ -51,9 +51,23 @@
         "Activated Defense": 3,
         "Activated Shooting": 0,
         "Perk Name": "Dealing Dimes",
-        "Base Description": "After you make 3 successful passes, ACTIVATE: all of your passes will be successful",
+        "Base Description": "After you make 2 successful passes, ACTIVATE: all of your passes will be successful",
         "Activated Description": "When you pass, ignore the defense. All of your passes will be complete.",
-        "Activation Threshold": 3
+        "Activation Threshold": 2
+    },
+    {
+        "Name": "Emma",
+        "Position": "Center",
+        "Base Speed": 3,
+        "Base Defense": 6,
+        "Base Shooting": 0,
+        "Activated Speed": 3,
+        "Activated Defense": 6,
+        "Activated Shooting": 0,
+        "Perk Name": "Give me the rock!",
+        "Base Description": "After receiving 2 passes, ACTIVATE: get extra actions after receiving passes.",
+        "Activated Description": "When Emma takes a turn immediately after receiving a pass, she gets +1 action.",
+        "Activation Threshold": 2
     },
     {
         "Name": "Jimmy",
