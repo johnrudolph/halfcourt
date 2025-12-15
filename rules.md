@@ -44,13 +44,11 @@ When a Hoooper gains possession of the ball, move the shot clock marker to 3. A 
 A possession ends if the defense steals the ball, the defense rebounds the ball, the Shot Clock expires, or the offense scores. When any of these occur, the defense gains possession of the ball, and the shot clock returns to 3. If the offense gets their own rebound, the shot clock returns to 2.
 
 ## Round
-Rounds simply consist of players taking turns performing an action with one of their Hoopers. The defense always takes the first turn.
+Rounds simply consist of players taking turns performing an action with one of their Hoopers. The defense takes the first turn of a normal possession (the offense takes the first turn after a steal or a failed pass).
 
 ### Actions
 
 On your turn, you may take action with each of your Hoopers. The number of actions they may take, and the effect of each action is determined by the stats on your Hooper's card. You may perform actions beginning with any of your 3 Hoopers, but you must only perform actions with 1 Hooper at a time.
-
-If you begin your turn in the backcourt, you get +2 actions.
 
 On your turn you may do the following:
 
@@ -68,7 +66,7 @@ Defensive numbers work the same for passing and shooting. Add the defensive stat
 
 Example: Ray is passing to Vic. Big Lee is on Vic's space, and has defense of 3. Then Hakeem is in Ray's space, and his defense is 4. Our defense difficulty number is 7, and we must roll an 8 or higher for the pass to be successful. 
 
-Roll to Ball. If your roll is higher than the defense difficulty numer, the pass is complete. If not, the defending team takes the ball. The defense may give the ball to any of their Hoopers in the passer's space, or the intended recipient's space.
+Roll to Ball. If your roll is higher than the defense difficulty numer, the pass is complete. If not, the defending team takes the ball. The defense may give the ball to any of their Hoopers in the passer's space, or the intended recipient's space. After a failed pass, the team who took possession of the ball goes first on the next turn.
 
 - The lowest difficulty a pass can have is 1. So even if there is no defense present, you still must roll the ball. If you roll a 1 on an undefended pass, the defense gets the ball on their baseline as if you had just scored.
 - You may never pass to a teammate who is behind the half court line.
@@ -98,8 +96,10 @@ If your shot is good, update the scoreboard, the defense picks a Hooper, gives t
 #### Steal
 If you are on defense and you are on same space as the ball-handler, you may attempt to steal the ball. This costs 1 action, and so you can only do it if you have an action to spend. The ball handler rolls the die. If they roll higher than your Hooper's defensive number, they keep the ball. Otherwise, you successfully steal the ball. Each Hooper may only attempt 1 steal per turn. 
 
+If a steal is successful, the team who stole goes first on the next possession.
+
 ### Hustle Plays and Exhaustion
-On your turn, you may choose for any of your Hoopers to hustle. On this turn, that Hooper gets +2 actions. Then, move them into the exhausted position on their energy mat.  
+On your turn, you may choose for any of your Hoopers to hustle. On this turn, that Hooper gets +3 actions. Then, move them into the exhausted position on their energy mat.  
 
 **Exhaustion**: when your Hooper is in the exhausted state, they get -1 Action on their turns, and cannot hustle. In order to leave the exhausted state, they must use an entire turn to rest, meaning that they will perform no actions.
 
