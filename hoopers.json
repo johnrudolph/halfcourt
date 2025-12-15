@@ -10,22 +10,8 @@
         "Activated Shooting": 0,
         "Perk Name": "Sick Handles",
         "Base Description": "After moving while holding the ball 3 times, ACTIVATE: dribble through your opponent's with ease.",
-        "Activated Description": "Once per turn, gain +3 movement when moving into an opponent's space while holding the ball. Exhaust.",
+        "Activated Description": "Once per turn, gain +3 movement when moving into an opponent's space while holding the ball.",
         "Activation Threshold": 3
-    },
-    {
-        "Name": "Emma",
-        "Position": "Center",
-        "Base Speed": 3,
-        "Base Defense": 6,
-        "Base Shooting": 0,
-        "Activated Speed": 3,
-        "Activated Defense": 7,
-        "Activated Shooting": -1,
-        "Perk Name": "Double Team",
-        "Base Description": "After moving into an opponent's space while a teammate is also on your space twice: ACTIVATE: get a boost to steal attempts.",
-        "Activated Description": "When attempting to steal when a teammate is also on your space, your opponent gets -5 on their roll. Exhaust.",
-        "Activation Threshold": 2
     },
     {
         "Name": "Bruce",
@@ -65,9 +51,23 @@
         "Activated Defense": 3,
         "Activated Shooting": 0,
         "Perk Name": "Dealing Dimes",
-        "Base Description": "After you make 3 successful passes, ACTIVATE: all of your passes will be successful",
+        "Base Description": "After you make 2 successful passes, ACTIVATE: all of your passes will be successful",
         "Activated Description": "When you pass, ignore the defense. All of your passes will be complete.",
-        "Activation Threshold": 3
+        "Activation Threshold": 2
+    },
+    {
+        "Name": "Emma",
+        "Position": "Center",
+        "Base Speed": 3,
+        "Base Defense": 6,
+        "Base Shooting": 0,
+        "Activated Speed": 3,
+        "Activated Defense": 6,
+        "Activated Shooting": 0,
+        "Perk Name": "Give me the rock!",
+        "Base Description": "After receiving 2 passes, ACTIVATE: get extra actions after receiving passes.",
+        "Activated Description": "When Emma takes a turn immediately after receiving a pass, she gets +1 action.",
+        "Activation Threshold": 2
     },
     {
         "Name": "Nate",
